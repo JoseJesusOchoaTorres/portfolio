@@ -1,0 +1,371 @@
+/*------------------------------------*\
+  # BACKGROUND-COLORS
+\*------------------------------------*/
+
+/**
+* Green colors
+*/
+    
+.hp-background-color-green-1 {
+    background-color: var(--color-green-1);
+}
+
+.hp-background-color-green-2 {
+    background-color: var(--color-green-2);
+}
+
+.hp-background-color-green-3 {
+    background-color: var(--color-green-3);
+}
+
+.hp-background-color-green-4 {
+    background-color: var(--color-green-4);
+}
+
+.hp-background-color-green-5 {
+    background-color: var(--color-green-5);
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-background-color-black-5 {
+    background-color: var(--color-black-5);
+}
+
+.hp-background-color-white-1 {
+    background-color: var(--color-white-1);
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-background-color-gray-1 {
+    background-color: var(--color-gray-1);
+}
+
+.hp-background-color-gray-2 {
+    background-color: var(--color-gray-2);
+}
+
+.hp-background-color-gray-3 {
+    background-color: var(--color-gray-3);
+}
+
+.hp-background-color-gray-4 {
+    background-color: var(--color-gray-4);
+}
+
+.hp-background-color-gray-5 {
+    background-color: var(--color-gray-5);
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT-COLORS
+\*------------------------------------*/
+
+/**
+* Green colors
+*/
+
+.hp-text-color-green-1 {
+    color: var(--color-green-1);
+}
+
+.hp-text-color-green-2 {
+    color: var(--color-green-2);
+}
+
+.hp-text-color-green-3 {
+    color: var(--color-green-3);
+}
+
+.hp-text-color-green-4 {
+    color: var(--color-green-4);
+}
+
+.hp-text-color-green-5 {
+    color: var(--color-green-5);
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-text-color-black-5 {
+    color: var(--color-black-5);
+}
+
+.hp-text-color-white-1 {
+    color: var(--color-white-1);
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-text-color-gray-1 {
+    color: var(--color-gray-1);
+}
+
+.hp-text-color-gray-2 {
+    color: var(--color-gray-2);
+}
+
+.hp-text-color-gray-3 {
+    color: var(--color-gray-3);
+}
+
+.hp-text-color-gray-4 {
+    color: var(--color-gray-4);
+}
+
+.hp-text-color-gray-5 {
+    color: var(--color-gray-5);
+}
+
+
+
+
+/*------------------------------------*\
+  # HEADINGS - Font-size
+\*------------------------------------*/
+
+/**
+* Normal size
+*/
+
+.hp-h1 {
+    font-size: 2.5rem;
+}
+
+.hp-h2 {
+    font-size: 1.875rem;
+}
+
+.hp-h3 {
+    font-size: 1.5625rem;
+}
+
+.hp-h4 {
+    font-size: 1.25rem;
+}
+
+
+/**
+* Oversized
+*/
+
+.hp-medium {
+    font-size: 3.125rem;
+}
+
+.hp-large {
+    font-size: 3.75rem;
+}
+
+
+/**
+* 3x multiplier
+*
+* The special class 'hp-fontsize-x3'
+* will multiply whatever class's size you are using by 3 or 300%.
+*
+* The class cannot be applied directly to the same element 
+* you are sizing (because only 1 font size can apply per element).
+*
+* It has to be applied to a child /nested element.
+*/
+
+.hp-fontsize-x3 {
+    font-size: 3em;
+}
+
+
+/**
+* Fluid headings
+*/
+
+.hp-fluid-h1 {
+    font-size: 7vmin;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT WEIGHTS
+\*------------------------------------*/
+
+/**
+* Open Sans
+*
+* light 300
+* light 300 Italic
+* regular 400
+* regular 400 Italic
+* semi-bold 600
+* semi-bold 600 Italic
+* bold 700
+* bold 700 Italic
+* extra-bold 800
+* extra-bold 800 Italic
+*/
+
+/**
+* Roboto
+*
+* thin 100
+* thin 100 Italic
+* light 300
+* light 300 Italic
+* regular 400
+* regular 400 Italic
+* medium 500
+* medium 500 Italic
+* bold 700
+* bold 700 Italic
+* black 900
+* black 900 Italic
+*/
+
+.hp-bold {
+    font-weight: 700;
+}
+
+.hp-light {
+    font-weight: 300;
+}
+
+.hp-thin {
+    font-weight: 100;
+}
+
+/*------------------------------------*\
+  # GRID
+\*------------------------------------*/
+
+/**
+* Container and row
+*/
+
+.hp-container {
+    padding: 2rem 6rem;
+}
+
+.hp-row {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+/**
+* Wrap
+*/
+
+.hp-nowrap {
+    flex-wrap: nowrap;
+}
+
+
+/**
+* Columns
+*/
+
+.hp-col-12-1 {
+    width: 8.333%;
+}
+
+.hp-col-12-2 {
+    width: 16%;
+}
+
+.hp-col-12-3 {
+    width: 25%;
+}
+
+.hp-col-12-4 {
+    width: 33.333%;
+}
+
+.hp-col-12-5 {
+    width: 41.666%;
+}
+
+.hp-col-12-6 {
+    width: 50%;
+}
+
+.hp-col-12-7 {
+    width: 58.333%;
+}
+
+.hp-col-12-8 {
+    width: 66.666%;
+}
+
+.hp-col-12-9 {
+    width: 75%;
+}
+
+.hp-col-12-10 {
+    width: 83.333%;
+}
+
+.hp-col-12-11 {
+    width: 91.666%;
+}
+
+.hp-col-12-12 {
+    width: 100%;
+}
+
+
+
+
+/*------------------------------------*\
+  # FLEXBOX ALIGNED
+\*------------------------------------*/
+
+.hp-vertical-center {
+    align-items: center;
+}
+
+
+
+
+/*------------------------------------*\
+  # IMAGE
+\*------------------------------------*/
+
+/**
+* Resize
+*/
+
+.hp-downsize {
+    max-width: 100%;
+    height: auto;
+}
+
+.hp-resize {
+    height: auto;
+    width: 100%;
+}
+
+
+/**
+* Style
+*/
+
+.hp-circule {
+    border-radius: 50%;
+}

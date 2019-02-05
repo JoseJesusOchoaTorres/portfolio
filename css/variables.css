@@ -1,5 +1,5 @@
 /*------------------------------------*\
-  #GLOBAL-COLORS
+  # GLOBAL-COLORS
 \*------------------------------------*/
 :root {
 
@@ -7,29 +7,29 @@
 	* Green colors
 	*/
 
-	--hp-green-color-1: rgb(2, 166, 118);
-	--hp-green-color-2: rgb(0, 140, 114);
-	--hp-green-color-3: rgb(0, 115, 105);
-	--hp-green-color-4: rgb(0, 90, 91);
-	--hp-green-color-5: rgb(0, 56, 64);
+	--color-green-1: rgb(2, 166, 118);
+	--color-green-2: rgb(0, 140, 114);
+	--color-green-3: rgb(0, 115, 105);
+	--color-green-4: rgb(0, 90, 91);
+	--color-green-5: rgb(0, 56, 64);
 
 
 	/**
 	* Black and white colors
 	*/
 	
-	--hp-black-color-5: rgb(0, 0, 0);
-	--hp-white-color-1: rgb(255, 255, 255);
+	--color-black-5: rgb(0, 0, 0);
+	--color-white-1: rgb(255, 255, 255);
 
 
 	/**
 	* Gray colors
 	*/
 	
-	--hp-gray-color-5: rgb(41, 41, 41);
-	--hp-gray-color-4: rgb(63, 63, 63);
-	--hp-gray-color-3: rgb(87, 87, 87);
-	--hp-gray-color-2: rgb(115, 115, 115);
-	--hp-gray-color-1: rgb(235, 235, 235);
+	--color-gray-5: rgb(41, 41, 41);
+	--color-gray-4: rgb(63, 63, 63);
+	--color-gray-3: rgb(87, 87, 87);
+	--color-gray-2: rgb(115, 115, 115);
+	--color-gray-1: rgb(235, 235, 235);
 
 }

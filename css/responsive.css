@@ -1,0 +1,56 @@
+/**
+* Small devices (landscape phones, 768px and down)
+*/
+
+@media (max-width: 768px) {
+
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+    
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+        /**
+        * Container and row
+        */
+
+        .hp-container {
+            padding: 1rem;
+        }
+        
+}
+
+
+/**
+* Medium devices (tablets, 768px and up)
+*/
+
+@media (min-width: 768px) {
+    * {
+        /* color: orange !important; */
+    }
+}
+
+
+/**
+* Large devices (desktops, 992px and up)
+*/
+
+@media (min-width: 992px) {
+    * {
+        /* color: yellow !important; */
+    }
+}
+
+
+/**
+* Extra large devices (large desktops, 1200px and up)
+*/
+
+@media (min-width: 1200px) {
+    * {
+        /* color: green !important; */
+    }
+}

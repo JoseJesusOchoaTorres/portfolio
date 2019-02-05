@@ -1,0 +1,30 @@
+/*------------------------------------*\
+  # MAIN-CONTAINER
+\*------------------------------------*/
+
+.main-container {
+    font-family: 'Open Sans', arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+
+    /*------------------------------------*\
+    # HEADER
+    \*------------------------------------*/
+
+    .header-container {
+        background: linear-gradient(var(--color-green-1), var(--color-green-2));
+        height: 100vh;
+    }
+    
+        .header-image {
+            min-width: 100px;
+            width: 200px;
+        }
+        
+        .header-title {
+            margin: 2rem;
+        }
