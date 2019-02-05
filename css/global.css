@@ -259,7 +259,7 @@
 */
 
 .hp-container {
-    padding: 2rem 6rem;
+    padding: 3rem 6rem;
 }
 
 .hp-row {
@@ -340,6 +340,14 @@
     align-items: center;
 }
 
+.hp-horizontal-center {
+    justify-content: center;
+}
+
+.hp-horizontal-evenly {
+    justify-content: space-evenly;
+}
+
 
 
 
@@ -368,4 +376,16 @@
 
 .hp-circule {
     border-radius: 50%;
+}
+
+
+
+
+/*------------------------------------*\
+  # MARGIN AND PADDING
+\*------------------------------------*/
+
+.hp-nospacing {
+    padding: 0;
+    margin: 0;
 }
