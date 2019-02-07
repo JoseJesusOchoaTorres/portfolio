@@ -1,4 +1,19 @@
 /*------------------------------------*\
+  # CARD
+\*------------------------------------*/
+
+.hp-card {
+    border: 0.5px solid var(--color-gray-1);
+    background-color: var(--color-white-1);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+
+
+
+/*------------------------------------*\
   # BACKGROUND-COLORS
 \*------------------------------------*/
 
@@ -137,6 +152,83 @@
 
 
 /*------------------------------------*\
+  # BORDERS
+\*------------------------------------*/
+
+/**
+* Remove border
+*/
+
+.hp-no-border {
+    border: none;
+}
+
+/**
+* Green colors
+*/
+
+.hp-border-color-green-1 {
+    border-color: var(--color-green-1);
+}
+
+.hp-border-color-green-2 {
+    border-color: var(--color-green-2);
+}
+
+.hp-border-color-green-3 {
+    border-color: var(--color-green-3);
+}
+
+.hp-border-color-green-4 {
+    border-color: var(--color-green-4);
+}
+
+.hp-border-color-green-5 {
+    border-color: var(--color-green-5);
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-border-color-black-5 {
+    border-color: var(--color-black-5);
+}
+
+.hp-border-color-white-1 {
+    border-color: var(--color-white-1);
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-border-color-gray-1 {
+    border-color: var(--color-gray-1);
+}
+
+.hp-border-color-gray-2 {
+    border-color: var(--color-gray-2);
+}
+
+.hp-border-color-gray-3 {
+    border-color: var(--color-gray-3);
+}
+
+.hp-border-color-gray-4 {
+    border-color: var(--color-gray-4);
+}
+
+.hp-border-color-gray-5 {
+    border-color: var(--color-gray-5);
+}
+
+
+
+
+/*------------------------------------*\
   # HEADINGS - Font-size
 \*------------------------------------*/
 
@@ -250,102 +342,15 @@
     font-weight: 100;
 }
 
-/*------------------------------------*\
-  # GRID
-\*------------------------------------*/
-
-/**
-* Container and row
-*/
-
-.hp-container {
-    padding: 3rem 6rem;
-}
-
-.hp-row {
-    flex-wrap: wrap;
-    display: flex;
-}
-
-
-/**
-* Wrap
-*/
-
-.hp-nowrap {
-    flex-wrap: nowrap;
-}
-
-
-/**
-* Columns
-*/
-
-.hp-col-12-1 {
-    width: 8.333%;
-}
-
-.hp-col-12-2 {
-    width: 16%;
-}
-
-.hp-col-12-3 {
-    width: 25%;
-}
-
-.hp-col-12-4 {
-    width: 33.333%;
-}
-
-.hp-col-12-5 {
-    width: 41.666%;
-}
-
-.hp-col-12-6 {
-    width: 50%;
-}
-
-.hp-col-12-7 {
-    width: 58.333%;
-}
-
-.hp-col-12-8 {
-    width: 66.666%;
-}
-
-.hp-col-12-9 {
-    width: 75%;
-}
-
-.hp-col-12-10 {
-    width: 83.333%;
-}
-
-.hp-col-12-11 {
-    width: 91.666%;
-}
-
-.hp-col-12-12 {
-    width: 100%;
-}
-
 
 
 
 /*------------------------------------*\
-  # FLEXBOX ALIGNED
+  # TEXT TRANSFORM
 \*------------------------------------*/
 
-.hp-vertical-center {
-    align-items: center;
-}
-
-.hp-horizontal-center {
-    justify-content: center;
-}
-
-.hp-horizontal-evenly {
-    justify-content: space-evenly;
+.hp-text-uppercase {
+    text-transform: uppercase;
 }
 
 
@@ -388,4 +393,43 @@
 .hp-nospacing {
     padding: 0;
     margin: 0;
+}
+
+
+
+
+/*------------------------------------*\
+  # SHADOWS
+\*------------------------------------*/
+
+/**
+* Box shadow
+*/
+
+.hp-box-shadow-1 {
+    box-shadow: 0 1px 1px rgba(10, 10, 10, .2);
+}
+
+.hp-box-shadow-2 {
+    box-shadow: 0 1px 5px rgba(10, 10, 10, .2);
+}
+
+.hp-box-shadow-3 {
+    box-shadow: 0 1px 10px rgba(10, 10, 10, .2);
+}
+
+/**
+* Box shadow - hover
+*/
+
+.hp-box-shadow-hover-1:hover {
+    box-shadow: 0 1px 1px rgba(10, 10, 10, .25);
+}
+
+.hp-box-shadow-hover-2:hover {
+    box-shadow: 0 1px 5px rgba(10, 10, 10, .25);
+}
+
+.hp-box-shadow-hover-3:hover {
+    box-shadow: 0 1px 10px rgba(10, 10, 10, .25);
 }
