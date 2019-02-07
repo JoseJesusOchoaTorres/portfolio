@@ -357,6 +357,25 @@
 
 
 /*------------------------------------*\
+  # TEXT ALIGNMENT
+\*------------------------------------*/
+
+.hp-text-center {
+    text-align: center;
+}
+
+.hp-text-right {
+    text-align: right;
+}
+
+.hp-text-left {
+    text-align: left;
+}
+
+
+
+
+/*------------------------------------*\
   # IMAGE
 \*------------------------------------*/
 
@@ -423,11 +442,11 @@
 */
 
 .hp-box-shadow-hover-1:hover {
-    box-shadow: 0 1px 1px rgba(10, 10, 10, .25);
+    box-shadow: 0 1px 3px rgba(10, 10, 10, .25);
 }
 
 .hp-box-shadow-hover-2:hover {
-    box-shadow: 0 1px 5px rgba(10, 10, 10, .25);
+    box-shadow: 0 1px 6px rgba(10, 10, 10, .25);
 }
 
 .hp-box-shadow-hover-3:hover {
