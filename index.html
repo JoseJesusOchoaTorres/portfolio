@@ -8,6 +8,7 @@
 
     <link href="./favicon.ico" rel="icon" type="image/x-icon" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/variables.css">
@@ -21,7 +22,7 @@
 <body>
     
     <!-- MAIN-CONTAINER-BEGIN -->
-    <div class="main-container  [ hp-text-color-gray-2 ]">
+    <div class="main-container  [ hp-text-color-gray-2 hp-light ]">
 
         <!-- HEADER-BEGIN -->
         <header class="header-container  [ container row vertical-center nowrap ] [ hp-text-color-white-1 ]">
@@ -49,21 +50,43 @@
 
 
         <!-- ABOUT-BEGIN -->
-        <section id="about" class="about-container  [ container hp-background-color-gray-1 ]">
+        <section id="about" class="about-container  [ container ] [ hp-background-color-gray-1 ]">
 
-            <div class="[ row horizontal-around ]">
-                <div class="[ col-sm-12 col-md-6 col-lg-4 col-xl-10 ]">
+            <div class="[ row ]">
+                <div class="[ col-sm-12 col-md-6 col-lg-8 col-xl-8 ]">
 
-                    <div class="[ hp-card hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
-                        <h2 class="[ hp-h2 hp-bold hp-text-color-gray-4 ]">Title</h2>
+                    <div class="[ hp-card hp-card--same-height hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
+                        <h2 class="[ hp-h2 hp-heading-stylized hp-bold hp-text-color-gray-6 ]">Who am I?</h2>
+                        <h3 class="[ hp-paragraph hp-bold hp-text-uppercase hp-text-color-gray-5 ]">Jose Jesus Ochoa Torres / Software engineer</h3>
+                        <p class="[ hp-small ]">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip.
+                        
+                        In hac habitasse platea dictumst. Aenean sit amet odio pulvinar, suscipit est eu, egestas diam. Praesent quis nisi
+                        euismod, placerat purus eget, vestibulum ligula. Etiam vulputate velit ut felis molestie volutpat. Proin ac ipsum
+                        dapibus, cursus urna quis, convallis risus. Donec lacinia fermentum ultrices. Ut blandit mauris ac dolor pharetra
+                        convallis.</p>
+                        <a class="about-button  [ hp-button hp-button--rounded hp-border-color-green-3 hp-text-color-green-3 ]" href="#" title="Download resume" download>Download resume</a>
                     </div>
 
                 </div>
                 
-                <div class="[ col-sm-12 col-md-6 col-lg-4 col-xl-2 ]">
+                <div class="[ col-sm-12 col-md-6 col-lg-4 col-xl-4 ]">
 
-                    <div class="[ hp-card hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
-                        <h2 class="[ hp-h2 hp-bold hp-text-color-gray-4 ]">Title</h2>
+                    <div class="[ hp-card hp-card--same-height hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
+                        <h2 class="[ hp-h2 hp-heading-stylized hp-bold hp-text-color-gray-6 ]">Personal Information</h2>
+                        <h3 class="[ hp-paragraph hp-bold hp-text-uppercase hp-text-color-gray-5 ]">Would you like to be in touch with me?</h3>
+                        <ul class="personal-information-list  [ hp-small ]">
+                            <li class="personal-information-element"><span class="[ hp-bold hp-text-color-gray-3 ]">Adress:</span> Guadalajara, Jal. México</li>
+                            <li class="personal-information-element"><span class="[ hp-bold hp-text-color-gray-3 ]">Birthdate:</span> 30/03/1993</li>
+                            <li class="personal-information-element"><span class="[ hp-bold hp-text-color-gray-3 ]">Email:</span> <a class="[ hp-text-color-green-3 ]" href="mailto:jose.jesus.ochoa.torres@gmail.com">jose.jesus.ochoa.torres@gmail.com</a></li>
+                            <li class="personal-information-element"><span class="[ hp-bold hp-text-color-gray-3 ]">Cellphone:</span> <a class="[ hp-text-color-green-3 ]" href="tel:+52 4525290255">(+52) 4525290255</a></li>
+                        </ul>
+                        <ul class="social-networks-list  [ row hp-h3 ]">
+                            <li class="social-networks-element"><a href="#"><i class="fab fa-linkedin  [ hp-text-color-gray-3  ]"></i></a></li>
+                            <li class="social-networks-element"><a href="#"><i class="fab fa-facebook  [ hp-text-color-gray-3  ]"></i></a></li>
+                            <li class="social-networks-element"><a href="#"><i class="fab fa-instagram  [ hp-text-color-gray-3  ]"></i></a></li>
+                            <li class="social-networks-element"><a href="#"><i class="fab fa-github  [ hp-text-color-gray-3  ]"></i></a></li>
+                        </ul>
                     </div>
 
                 </div>
@@ -74,31 +97,275 @@
 
 
         <!-- SKILLS-BEGIN -->
-        <section id="skills" class="skills-container">
+        <section id="skills" class="skills-container  [ container ]">
+
+            <div class="[ row ]">
+                <div class="col-12">
+
+                    <h2 class="[ hp-h2 hp-heading-stylized--center hp-bold hp-text-color-gray-6 ]">Skills &amp; Knowledge</h2>
+
+                </div>
+            </div>
+            
+            <div class="[ row horizontal-between ]">
+                <div class="col-sm-12 col-md-6 col-lg-5 col-xl-5">
+
+                    <h3 class="[ hp-paragraph hp-bold hp-text-color-gray-5 ]">Languages</h3>
+
+                    <ul>
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">HTML5 <span>Advanced</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="75"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">CSS3 <span>Advanced</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="75"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">JS (ES6) <span>Advanced</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="75"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">PHP <span>Intermediate</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="50"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Python <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Java SE <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <h3 class="[ hp-paragraph hp-bold hp-text-color-gray-5 ]">Preprocessors, task runners and bundlers</h3>
+                    
+                    <ul>
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">SASS <span>Intermediate</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="50"></div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Gulp <span>Intermediate</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="50"></div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Webpack <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-5 col-xl-5">
+
+                    <h3 class="[ hp-paragraph hp-bold hp-text-color-gray-5 ]">Frameworks, libraries and CMSs</h3>
+
+                    <ul>
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Vue <span>Advanced</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="75"></div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Angular <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">React <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Polymer <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Laravel <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Boostrap <span>Advanced</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="75"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Materialize <span>Advanced</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="75"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Foundation <span>Intermediate</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="50"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">jQuery <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Wordpress <span>Intermediate</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="50"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <h4 class="[ row horizontal-between ] [ hp-light hp-text-color-green-3 ]">Drupal <span>Basic</span></h4>
+                            <div class="[ hp-progress-bar ]">
+                                <div class="[ hp-progress ]" data-value="25"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
 
         </section>
         <!-- SKILLS-END -->
 
 
         <!-- EXPERIENCE-BEGIN -->
-        <section id="experience" class="experience-container">
+        <section id="experience" class="experience-container [ container ] [ hp-background-color-gray-1 ]">
+
+            <div class="[ row ]">
+                <div class="col-12">
+            
+                    <h2 class="[ hp-h2 hp-heading-stylized--center hp-bold hp-text-color-gray-6 ]">My Resume</h2>
+            
+                </div>
+            </div>
+
+            <div class="[ row ]">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="[ hp-card hp-card--same-height hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
+                        <h2 class="[ hp-h2 hp-bold hp-text-color-gray-6 ]">IBM</h2>
+                        <h3 class="[ hp-paragraph hp-bold hp-text-uppercase hp-text-color-green-3 ]">Web builder / Web designer</h3>
+                        <p class="[ hp-small ]">Aliquam in ex justo. Donec at venenatis leo. Nunc tempus varius auctor. Nam quis interdum dolor, accumsan rhoncus elit. Vestibulum ornare dolor a elit semper faucibus sit amet vitae nisl.</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="[ hp-card hp-card--same-height hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
+                        <h2 class="[ hp-h2 hp-bold hp-text-color-gray-6 ]">IBM</h2>
+                        <h3 class="[ hp-paragraph hp-bold hp-text-uppercase hp-text-color-green-3 ]">Technical leader</h3>
+                        <p class="[ hp-small ]">Aliquam in ex justo. Donec at venenatis leo. Nunc tempus varius auctor. Nam quis interdum dolor, accumsan rhoncus elit. Vestibulum ornare dolor a elit semper faucibus sit amet vitae nisl.</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="[ hp-card hp-card--same-height hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
+                        <h2 class="[ hp-h2 hp-bold hp-text-color-gray-6 ]">IBM</h2>
+                        <h3 class="[ hp-paragraph hp-bold hp-text-uppercase hp-text-color-green-3 ]">Web builder / Web designer</h3>
+                        <p class="[ hp-small ]">Aliquam in ex justo. Donec at venenatis leo. Nunc tempus varius auctor. Nam quis interdum dolor, accumsan rhoncus elit. Vestibulum ornare dolor a elit semper faucibus sit amet vitae nisl.</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="[ hp-card hp-card--same-height hp-no-border hp-box-shadow-1 hp-box-shadow-hover-3 ]">
+                        <h2 class="[ hp-h2 hp-bold hp-text-color-gray-6 ]">IBM</h2>
+                        <h3 class="[ hp-paragraph hp-bold hp-text-uppercase hp-text-color-green-3 ]">Drupal developer / Fullstack developer</h3>
+                        <p class="[ hp-small ]">Aliquam in ex justo. Donec at venenatis leo. Nunc tempus varius auctor. Nam quis interdum dolor, accumsan rhoncus elit. Vestibulum ornare dolor a elit semper faucibus sit amet vitae nisl.</p>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <!-- EXPERIENCE-END -->
 
 
         <!-- PORTFOLIO-BEGIN -->
-        <section id="portfolio" class="portfolio-container">
-
-        </section>
+        <!-- <section id="portfolio" class="portfolio-container"></section> -->
         <!-- PORTFOLIO-END -->
 
 
         <!-- CONTACT-BEGIN -->
-        <footer id="contact">
+        <section id="contact" class="contact-container  [ container ] [ hp-background-color-white-1 ]">
 
-        </footer>
+            <div class="[ row horizontal-center ]">
+                <div class="col-sm-12 col-md-10 col-lg-8 col-xl-10  [ hp-text-center hp-text-color-gray-3 ]">
+
+                    <h2 class="[ hp-h2 hp-heading-stylized--center hp-bold hp-text-color-gray-6 ]">Talk with me</h2>
+
+                    <p class="[ hp-h4 ]">Puedes contactarme en mis redes sociales o enviarme un <a class="[ hp-text-color-green-3 hp-bold ]" href="mailto:jose.jesus.ochoa.torres@gmail.com">e-mail</a> directamente si así lo prefieres.</p>
+                    <p class="[ hp-h4 ]">Tambien puedes ver mi <a class="[ hp-text-color-green-3 hp-bold ]" href="#">currículum</a> para saber más acerca de mi experiencia y educación.</p>
+                    
+                </div>
+            </div>
+            
+        </section>
         <!-- CONTACT-END -->
+        
+        
+        <!-- FOOTER-BEGIN -->
+        <footer class="footer-container [ hp-background-color-white-1 ]">
+
+            <div class="col-12  [ row horizontal-around vertical-center ]">
+
+                <p>Hecho con <i class="fas fa-heart  [ hp-text-color-green-3 ]"></i> para todo el mundo</p>
+                
+                <ul class="social-networks-list  [ row hp-h3 ]">
+                    <li class="social-networks-element"><a href="#"><i class="fab fa-linkedin  [ hp-text-color-gray-3  ]"></i></a></li>
+                    <li class="social-networks-element"><a href="#"><i class="fab fa-facebook  [ hp-text-color-gray-3  ]"></i></a></li>
+                    <li class="social-networks-element"><a href="#"><i class="fab fa-instagram  [ hp-text-color-gray-3  ]"></i></a></li>
+                    <li class="social-networks-element"><a href="#"><i class="fab fa-github  [ hp-text-color-gray-3  ]"></i></a></li>
+                </ul>
+                
+                <p>Codigo disponible en <a class="[ hp-text-color-green-3 ]" href="#">Github</a></p>
+                
+            </div>
+            
+        </footer>
+        <!-- FOOTER-END -->
 
     </div>
     <!-- MAIN-CONTAINER-END -->

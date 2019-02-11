@@ -28,6 +28,7 @@ a {
 
 ol, ul {
     list-style: none;
+    padding-left: 0;
 }
 
 
@@ -39,6 +40,7 @@ ol, ul {
 
 .main-container {
     font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: arial, sans-serif; */
     box-sizing: border-box;
     font-size: 16px;
 }
@@ -51,7 +53,7 @@ ol, ul {
     \*------------------------------------*/
 
     .header-container {
-        background: linear-gradient(var(--color-green-1), var(--color-green-2));
+        background: linear-gradient(var(--color-green-2), var(--color-green-3));
         height: 100vh;
     }
     
@@ -85,7 +87,7 @@ ol, ul {
         }
         
         .navigation-link:hover {
-            color: var(--color-green-1);
+            color: var(--color-green-3);
         }
 
 
@@ -94,10 +96,20 @@ ol, ul {
     /*------------------------------------*\
     # ABOUT
     \*------------------------------------*/
-
-    .about-container {
-        /* height: 50vh; */
+    
+    .about-button:hover {
+        background-color: var(--color-green-3);
+        color: var(--color-white-1);
     }
+
+        .personal-information-element {
+            margin-bottom: 1rem;
+        }
+
+        .social-networks-element {
+            margin-right: 1rem;
+            margin-bottom: 0;
+        }
     
     
     
@@ -106,9 +118,7 @@ ol, ul {
     # SKILLS
     \*------------------------------------*/
 
-    .skills-container {
-        height: 150vh;
-    }
+    /* .skills-container {} */
 
 
 
@@ -117,9 +127,7 @@ ol, ul {
     # EXPERIENCE
     \*------------------------------------*/
 
-    .experience-container {
-        height: 150vh;
-    }
+    /* .experience-container {} */
 
 
 
@@ -128,6 +136,24 @@ ol, ul {
     # PORTFOLIO
     \*------------------------------------*/
 
-    .experience-container {
-        height: 150vh;
+    /* .portfolio-container {} */
+
+
+
+
+    /*------------------------------------*\
+    # CONTACT
+    \*------------------------------------*/
+
+    /* .contact-container {} */
+
+
+
+
+    /*------------------------------------*\
+    # CONTACT
+    \*------------------------------------*/
+
+    .footer-container {
+        border-top: 1px solid var(--color-gray-1);
     }

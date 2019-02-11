@@ -26,10 +26,11 @@
 	* Gray colors
 	*/
 	
-	--color-gray-5: rgb(41, 41, 41);
-	--color-gray-4: rgb(63, 63, 63);
-	--color-gray-3: rgb(87, 87, 87);
-	--color-gray-2: rgb(115, 115, 115);
+	--color-gray-6: rgb(41, 41, 41);
+	--color-gray-5: rgb(63, 63, 63);
+	--color-gray-4: rgb(87, 87, 87);
+	--color-gray-3: rgb(115, 115, 115);
+	--color-gray-2: rgb(150, 150, 150);
 	--color-gray-1: rgb(235, 235, 235);
 
 }

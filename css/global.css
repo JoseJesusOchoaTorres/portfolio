@@ -10,6 +10,71 @@
     padding: 1.5rem;
 }
 
+    .hp-card--same-height {
+        height: 100%;
+    }
+
+
+
+
+/*------------------------------------*\
+  # PROGRESS BAR
+\*------------------------------------*/
+
+.hp-progress-bar,
+.hp-progress {
+    height: 0.5rem;
+}
+
+.hp-progress-bar {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    background-color: var(--color-gray-1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+    .hp-progress {
+        background-color: var(--color-green-3);
+    }
+
+        .hp-progress[data-value="25"] {
+            width: 75%;
+        }
+        
+        .hp-progress[data-value="50"] {
+            width: 75%;
+        }
+        
+        .hp-progress[data-value="75"] {
+            width: 75%;
+        }
+        
+        .hp-progress[data-value="100"] {
+            width: 75%;
+        }
+
+
+
+/*------------------------------------*\
+  # BUTTONS
+\*------------------------------------*/
+
+.hp-button {
+    transition: all 0.3s ease;
+    border: solid 1px var(--color-gray-2);
+    background-color: transparent;
+    color: var(--color-gray-2);
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    font-size: .875rem;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+    .hp-button--rounded {
+        border-radius: 3rem;
+    }
+
 
 
 
@@ -79,6 +144,10 @@
     background-color: var(--color-gray-5);
 }
 
+.hp-background-color-gray-6 {
+    background-color: var(--color-gray-6);
+}
+
 
 
 
@@ -146,6 +215,10 @@
 
 .hp-text-color-gray-5 {
     color: var(--color-gray-5);
+}
+
+.hp-text-color-gray-6 {
+    color: var(--color-gray-6);
 }
 
 
@@ -225,12 +298,27 @@
     border-color: var(--color-gray-5);
 }
 
+.hp-border-color-gray-6 {
+    border-color: var(--color-gray-6);
+}
+
 
 
 
 /*------------------------------------*\
-  # HEADINGS - Font-size
+  # HEADINGS
 \*------------------------------------*/
+
+/**
+* Removing margin top in headings
+*/
+
+.hp-h1,
+.hp-h2,
+.hp-h3,
+.hp-h4 {
+    margin-top: .875rem; /* 14px */
+}
 
 /**
 * Normal size
@@ -252,10 +340,17 @@
     font-size: 1.25rem;
 }
 
+.hp-paragraph {
+    font-size: 1rem;
+}
 
 /**
 * Oversized
 */
+
+.hp-small {
+    font-size: .875rem;
+}
 
 .hp-medium {
     font-size: 3.125rem;
@@ -289,6 +384,33 @@
 
 .hp-fluid-h1 {
     font-size: 7vmin;
+}
+
+
+/**
+* Adding a different style to headings
+*/
+
+.hp-heading-stylized,
+.hp-heading-stylized--center {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 100;
+}
+
+    .hp-heading-stylized--center {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+.hp-heading-stylized::after,
+.hp-heading-stylized--center::after {
+    background-color: var(--color-green-3);
+    margin-top: 0.3rem;
+    display: block;
+    height: .3rem;
+    content: "";
+    width: 4rem;
 }
 
 
