@@ -528,12 +528,196 @@
 
 
 /*------------------------------------*\
-  # MARGIN AND PADDING
+  # MARGINS AND PADDINGS
 \*------------------------------------*/
 
 .hp-nospacing {
     padding: 0;
     margin: 0;
+}
+
+
+/**
+* Padding-top
+*/
+
+.hp-padding-top-0 {
+    padding-top: 0;
+}
+
+.hp-padding-top-1 {
+    padding-top: .625rem;  /* 10px */
+}
+
+.hp-padding-top-2 {
+    padding-top: 1.25rem;  /* 20px */
+}
+
+.hp-padding-top-3 {
+    padding-top: 1.875rem; /* 30px */
+}
+
+.hp-padding-top-4 {
+    padding-top: 2.5rem;   /* 40px */
+}
+
+.hp-padding-top-5 {
+    padding-top: 3.125rem; /* 50px */
+}
+
+
+/**
+* Padding-top responsive
+*/
+
+.hp-padding-top-r1 {
+    padding-top: 2vw;
+}
+
+.hp-padding-top-r2 {
+    padding-top: 5vw;
+}
+
+.hp-padding-top-r3 {
+    padding-top: 10vw;
+}
+
+
+/**
+* Padding-bottom
+*/
+
+.hp-padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.hp-padding-bottom-1 {
+    padding-bottom: .625rem;  /* 10px */
+}
+
+.hp-padding-bottom-2 {
+    padding-bottom: 1.25rem;  /* 20px */
+}
+
+.hp-padding-bottom-3 {
+    padding-bottom: 1.875rem; /* 30px */
+}
+
+.hp-padding-bottom-4 {
+    padding-bottom: 2.5rem;   /* 40px */
+}
+
+.hp-padding-bottom-5 {
+    padding-bottom: 3.125rem; /* 50px */
+}
+
+
+/**
+* Padding-bottom responsive
+*/
+
+.hp-padding-bottom-r1 {
+    padding-bottom: 2vw;
+}
+
+.hp-padding-bottom-r2 {
+    padding-bottom: 5vw;
+}
+
+.hp-padding-bottom-r3 {
+    padding-bottom: 10vw;
+}
+
+
+/**
+* Margin-top
+*/
+
+.hp-margin-top-0 {
+    margin-top: 0;
+}
+
+.hp-margin-top-1 {
+    margin-top: .625rem;  /* 10px */
+}
+
+.hp-margin-top-2 {
+    margin-top: 1.25rem;  /* 20px */
+}
+
+.hp-margin-top-3 {
+    margin-top: 1.875rem; /* 30px */
+}
+
+.hp-margin-top-4 {
+    margin-top: 2.5rem;   /* 40px */
+}
+
+.hp-margin-top-5 {
+    margin-top: 3.125rem; /* 50px */
+}
+
+
+/**
+* Margin-top responsive
+*/
+
+.hp-margin-top-r1 {
+    margin-top: 2vw;
+}
+
+.hp-margin-top-r2 {
+    margin-top: 5vw;
+}
+
+.hp-margin-top-r3 {
+    margin-top: 10vw;
+}
+
+
+/**
+* Margin-bottom
+*/
+
+.hp-margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.hp-margin-bottom-1 {
+    margin-bottom: .625rem;  /* 10px */
+}
+
+.hp-margin-bottom-2 {
+    margin-bottom: 1.25rem;  /* 20px */
+}
+
+.hp-margin-bottom-3 {
+    margin-bottom: 1.875rem; /* 30px */
+}
+
+.hp-margin-bottom-4 {
+    margin-bottom: 2.5rem;   /* 40px */
+}
+
+.hp-margin-bottom-5 {
+    margin-bottom: 3.125rem; /* 50px */
+}
+
+
+/**
+* Margin-bottom responsive
+*/
+
+.hp-margin-bottom-r1 {
+    margin-bottom: 2vw;
+}
+
+.hp-margin-bottom-r2 {
+    margin-bottom: 5vw;
+}
+
+.hp-margin-bottom-r3 {
+    margin-bottom: 10vw;
 }
 
 
