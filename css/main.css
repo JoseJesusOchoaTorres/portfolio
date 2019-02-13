@@ -2,6 +2,10 @@
   # SHORT NORMALIZE
 \*------------------------------------*/
 
+html {
+    line-height: 1.4;
+}
+
 /**
 * All elements
 */
@@ -39,8 +43,8 @@ ol, ul {
 \*------------------------------------*/
 
 .main-container {
-    font-family: 'Open Sans', arial, sans-serif;
-    /* font-family: arial, sans-serif; */
+    /* font-family: 'Open Sans', arial, sans-serif; */
+    font-family: sans-serif;
     box-sizing: border-box;
     font-size: 16px;
 }
@@ -63,7 +67,7 @@ ol, ul {
         }
         
         .header-title {
-            margin: 2rem;
+            margin-left: 2rem;
         }
 
 

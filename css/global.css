@@ -38,11 +38,11 @@
     }
 
         .hp-progress[data-value="25"] {
-            width: 75%;
+            width: 25%;
         }
         
         .hp-progress[data-value="50"] {
-            width: 75%;
+            width: 55%;
         }
         
         .hp-progress[data-value="75"] {
@@ -50,7 +50,7 @@
         }
         
         .hp-progress[data-value="100"] {
-            width: 75%;
+            width: 100%;
         }
 
 
