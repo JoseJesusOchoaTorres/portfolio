@@ -11,15 +11,19 @@
     */
 
     .container {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         padding: 2rem;
     }
 
     .row {
-        /* margin: 0 -.5rem; */
         flex-wrap: wrap;
         flex: 0 1 auto;
         display: flex;
+    }
+
+    .row-wrap {
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
 
@@ -27,7 +31,7 @@
     * Wrap
     */
 
-    .nowrap {
+    .no-wrap {
         flex-wrap: nowrap;
     }
 
@@ -115,6 +119,17 @@
 
 
 
+    /*------------------------------------*\
+    # FLEXBOX
+    \*------------------------------------*/
+    
+    .flex {
+        display: flex;
+    }
+    
+
+
+    
     /*------------------------------------*\
     # FLEXBOX ALIGNMENT
     \*------------------------------------*/
