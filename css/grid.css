@@ -11,19 +11,20 @@
     */
 
     .container {
-        /* margin: 0 auto; */
         padding: 2rem;
     }
 
-    .row {
+    .row,
+    .row-fullwith {
         flex-wrap: wrap;
         flex: 0 1 auto;
         display: flex;
     }
 
-    .row-wrap {
+    .row {
+        margin-right: auto;
+        margin-left: auto;
         max-width: 1400px;
-        margin: 0 auto;
     }
 
 
