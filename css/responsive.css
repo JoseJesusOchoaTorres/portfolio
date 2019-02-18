@@ -3,7 +3,7 @@
 */
 
 @media (max-width: 768px) {
-
+    
     /**************************************\
     # GLOBAL
     \**************************************/
@@ -19,6 +19,25 @@
         .hp-container {
             padding: 1rem;
         }
+
+
+        /**
+        * Hidding elements in mobile
+        */
+
+        .hp-sm-hidden {
+            display: none;
+        }
+        
+        
+        /**
+        * Showing elements in mobile
+        */
+
+        .hp-sm-visible {
+            flex-direction: column;
+            display: flex;
+        }
         
 }
 
@@ -29,6 +48,21 @@
 
 @media (min-width: 768px) {
 
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+            /**
+            * Showing elements in mobile
+            */
+
+            .hp-sm-visible {
+                display: none;
+            }
    
 }
 
@@ -39,6 +73,21 @@
 
 @media (min-width: 992px) {
 
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+            /**
+            * Showing elements in mobile
+            */
+
+            .hp-sm-visible {
+                display: none;
+            }
 
 }
 
@@ -49,5 +98,20 @@
 
 @media (min-width: 1200px) {
 
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+            /**
+            * Showing elements in mobile
+            */
+
+            .hp-sm-visible {
+                display: none;
+            }
     
 }
