@@ -1,7 +1,7 @@
 <h1 align="center"> Another portfolio </h1> <br>
 <p align="center">
   <a href="https://josejesusochoatorres.github.io/portfolio/">
-    <img alt="Portfolio screencapture" title="Portfolio screencapture" src="https://raw.githubusercontent.com/JoseJesusOchoaTorres/Files/master/readme-image.png" width="450">
+    <img alt="Portfolio screencapture" title="Portfolio screencapture" src="https://raw.githubusercontent.com/JoseJesusOchoaTorres/Files/master/readme-image.png">
   </a>
 </p>
 
@@ -44,10 +44,6 @@ The default sections are the next:
 * Skills and knowledge
 * My resume *(Places where you worked and what were you doing)*
 * Contact
-
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/JoseJesusOchoaTorres/Files/master/sections.png" width=700>
-</p>
 
 
 ## Build with
