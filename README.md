@@ -15,8 +15,11 @@
 - [Introduction](#introduction)
 - [Sections](#sections)
 - [Build with](#build-with)
+- [Setup](#setup)
+- [Use](#use)
 - [Feedback](#feedback)
 - [Contact](#contact)
+- [License](#license)
 
 ---
 
@@ -24,7 +27,7 @@
 
 [![Current Version](https://img.shields.io/badge/version-0.0.9-green.svg)](https://github.com/JoseJesusOchoaTorres/portfolio) 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://josejesusochoatorres.github.io/portfolio/)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-green.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-green.svg?style=flat-square)](./CONTRIBUTORS.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](https://github.com/JoseJesusOchoaTorres/portfolio/pulls)
 
 This simple and responsive portfolio was developed with the alpha version of *[Another CSS framework](#)* with two main purposes:
@@ -71,6 +74,59 @@ The default sections are the next:
 * [Gulp uglify](https://www.npmjs.com/package/gulp-uglify)
 
 
+## Setup
+
+Clone this repository to your desktop and after you clone it, go to its root directory and run `npm install` to install its dependencies just if you will work with a production version, if you will work just with development files is not necessary install dependencies.
+
+### Gulp task
+
+I have created 5 task:
+
+`gulp styles`
+
+- Concat all CSS files in just one
+- Autoprefixer
+- Remove redundant
+- Compression
+- Restructuration
+- Create just a *style.css* file
+- Move this file to `dist/css/`
+
+`gulp scripts`
+
+- Use Babel to transpile from ES6 to ES5
+- Minify the js files with uglify
+- Move this file to `dist/js/`
+
+`gulp pages`
+
+- Remove the white spaces in our html files
+- Remove comments
+- Move this file to `dist/`
+
+`gulp clean`
+
+- Remove all files inside of `dist`
+- Remove all files inside of `dist/css/`
+- Remove all files inside of `dist/js/`
+
+`gulp`
+
+- Run all the tasks
+
+
+## Use
+
+I'm using [Browsersync](https://browsersync.io) to mount a local server and test my project on mobile and desktop.
+
+You can add this dependency directly in the project, or install it globally in your operative system.
+
+**Global:** `npm install -g browser-sync`
+
+To run our server I have added a script in our *package.json* so you can run this in our project root path:
+
+`npm run serve`
+
 
 ## Feedback
 
@@ -83,6 +139,11 @@ If there's anything you'd like to chat about, please feel free to do this.
 
 * [jose.jesus.ochoa.torres@gmail.com](mailto:jose.jesus.ochoa.torres@gmail.com)
 * [Instagram](https://www.instagram.com/)
-* [Linkedin](https://www.linkedin.com/in/octojose/)
 * [Facebook](https://www.facebook.com/jose.jesus.ochoa.torres)
+* [Linkedin](https://www.linkedin.com/in/octojose/)
 * [Twitter](https://twitter.com/jjot93)
+
+
+## License
+
+This project is licensed under the terms of the [MIT license](./LICENSE.md).
