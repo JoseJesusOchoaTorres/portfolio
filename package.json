@@ -1,13 +1,20 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.9",
+  "description": "Simple portfolio placeholder",
+  "author": "Jose Jesus Ochoa Torres",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoseJesusOchoaTorres/portfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/JoseJesusOchoaTorres/portfolio/issues"
+  },
   "main": "index.js",
   "scripts": {
     "serve": "browser-sync start --server --files 'css/*.css'"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",

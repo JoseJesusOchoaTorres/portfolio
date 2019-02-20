@@ -33,7 +33,7 @@
 This simple and responsive portfolio was developed with the alpha version of *[Another CSS framework](#)* with two main purposes:
 
 1. Test *Another CSS framework* in a real but simple project
-2. To build something to help more people to show to the rest of the world a little of their self
+2. Build something to help you show the world a little bit of yourself 
 
 
 ## Sections
@@ -45,7 +45,7 @@ The default sections are the next:
 * Leadspace
 * About me *(Your personal and contact information)*
 * Skills and knowledge
-* My resume *(Places where you worked and what were you doing)*
+* My resume *(Places where you worked and your experience)*
 * Contact
 
 
@@ -76,20 +76,20 @@ The default sections are the next:
 
 ## Setup
 
-Clone this repository to your desktop and after you clone it, go to its root directory and run `npm install` to install its dependencies just if you will work with a production version, if you will work just with development files is not necessary install dependencies.
+Clone this repository to your desktop and after you clone it, go to its root directory and run `npm install` to install its dependencies only if you will work with a production version, if you will work just with development files is not necessary install dependencies.
 
 ### Gulp task
 
-I have created 5 task:
+I've created 5 task:
 
 `gulp styles`
 
-- Concat all CSS files in just one
+- Concatenate all CSS files in just one
 - Autoprefixer
-- Remove redundant
+- Remove redundancies
 - Compression
 - Restructuration
-- Create just a *style.css* file
+- Create only a *style.css* file
 - Move this file to `dist/css/`
 
 `gulp scripts`
@@ -100,7 +100,7 @@ I have created 5 task:
 
 `gulp pages`
 
-- Remove the white spaces in our html files
+- Remove the white spaces in html files
 - Remove comments
 - Move this file to `dist/`
 
@@ -130,12 +130,12 @@ To run our server I have added a script in our *package.json* so you can run thi
 
 ## Feedback
 
-Feel free to send us feedback on my social networks or [file an issue](https://github.com/JoseJesusOchoaTorres/portfolio/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+Feel free to send me feedback on my social networks or [file an issue](https://github.com/JoseJesusOchoaTorres/portfolio/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
 
 
 ## Contact
 
-If there's anything you'd like to chat about, please feel free to do this.
+If there's anything you'd like to chat about, please feel free to do it.
 
 * [jose.jesus.ochoa.torres@gmail.com](mailto:jose.jesus.ochoa.torres@gmail.com)
 * [Instagram](https://www.instagram.com/)
