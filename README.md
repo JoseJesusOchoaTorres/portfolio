@@ -30,7 +30,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-green.svg?style=flat-square)](./CONTRIBUTORS.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](https://github.com/JoseJesusOchoaTorres/portfolio/pulls)
 
-This simple and responsive portfolio was developed with the alpha version of *[Another CSS framework](#)* with two main purposes:
+This simple and responsive portfolio was developed with the alpha version of *[Another CSS framework](https://github.com/JoseJesusOchoaTorres/another-css)* with two main purposes:
 
 1. Test *Another CSS framework* in a real but simple project
 2. Build something to help you show the world a little bit of yourself 
@@ -53,7 +53,7 @@ The default sections are the next:
 
 #### Framework
 
-* [Another CSS framework](#) - The CSS Framework used (grid system, helper classes, etc)
+* [Another CSS framework](https://github.com/JoseJesusOchoaTorres/another-css) - The CSS Framework used (grid system, helper classes, etc)
 
 
 #### Languages

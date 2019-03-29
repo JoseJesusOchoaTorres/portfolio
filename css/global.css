@@ -456,6 +456,10 @@
     font-weight: 700;
 }
 
+.hp-regular {
+    font-weight: normal;
+}
+
 .hp-light {
     font-weight: 300;
 }
